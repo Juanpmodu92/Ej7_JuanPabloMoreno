@@ -3,20 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página con Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/estilos_ej7.css">
 </head>
 <body>
-    <header>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mi Página</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nuestros Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
         <h1>
             PAGINA DE CSS
         </h1>
-        <div>
-            <button class="primary">Inicio</button>
-            <button class="secundary">Quienes Somos</button>
-            <button class="tertiary">Nuestros Servicios</button>
-        </div>
-    </header>
     
     <div class="container">
         <P>
@@ -27,7 +48,6 @@
             Morbi ad maecenas class senectus sociis metus nisi placerat ac pretium gravida nibh bibendum sem justo, risus erat sollicitudin libero suscipit vitae etiam magna orci primis turpis torquent quisque. Mollis fames volutpat sapien malesuada mattis platea curae, interdum penatibus in lacus nullam litora scelerisque laoreet, curabitur tempus phasellus primis mus accumsan. Malesuada integer in vehicula id a bibendum pellentesque faucibus, fringilla netus duis nisl platea aptent vitae leo, aliquam curae penatibus magnis sagittis per quis.
         </p>
     </div>
-
     <footer>
         <div class="social-icons">
             <a href="#">Facebook</a>
@@ -38,5 +58,7 @@
         <p class="footer-text">&copy; 2024 PaginaWeb. Todos los derechos reservados.</p>
         <p class="footer-text"><a href="#">Política de privacidad</a> | <a href="#">Términos de uso</a></p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
