@@ -39,47 +39,87 @@
             PAGINA DE CSS
         </h1>
     
- <!-- Sección con grillas -->
- <div class="container mt-section">
-    <div class="row justify-content-center"> <!-- Aseguramos que las columnas estén centradas -->
-        <div class="col-md-6">
-            <h2 class="text-center">Sección Izquierda</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit nam auctor id, arcu viverra facilisis sem leo et dui natoque cubilia.</p>
-        </div>
-        <div class="col-md-6">
-            <h2 class="text-center">Sección Derecha</h2>
-            <p class="text-center">Massa litora porttitor sodales netus tristique posuere dui quis turpis, sagittis etiam erat cras natoque montes bibendum laoreet condimentum.</p>
+    <!-- Sección con grillas -->
+    <div class="container mt-section">
+        <div class="row justify-content-center"> <!-- Aseguramos que las columnas estén centradas -->
+            <div class="col-md-6">
+                <h2 class="text-center">Sección Izquierda</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit nam auctor id, arcu viverra facilisis sem leo et dui natoque cubilia.</p>
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center">Sección Derecha</h2>
+                <p class="text-center">Massa litora porttitor sodales netus tristique posuere dui quis turpis, sagittis etiam erat cras natoque montes bibendum laoreet condimentum.</p>
+            </div>
         </div>
     </div>
-</div>
 
-    <!-- Sección con grillas -->
+    <!-- Cards -->
     <div class="container mt-section">
-        <div class="row justify-content-center"> <!-- Aseguramos que las columnas estén centradas -->
-            <div class="col-md-6">
-                <h2 class="text-center">Sección Izquierda</h2>
-                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit nam auctor id, arcu viverra facilisis sem leo et dui natoque cubilia.</p>
+        <div class="row justify-content-center"> <!-- Centramos las tarjetas -->
+            <div class="col-md-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="img/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Card 1</h5>
+                        <p class="card-text">Esta es una tarjeta con contenido adicional para mostrar un diseño atractivo.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6">
-                <h2 class="text-center">Sección Derecha</h2>
-                <p class="text-center">Massa litora porttitor sodales netus tristique posuere dui quis turpis, sagittis etiam erat cras natoque montes bibendum laoreet condimentum.</p>
+            <div class="col-md-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="/img/5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Card 2</h5>
+                        <p class="card-text">Otra tarjeta con un diseño diferente y adaptado para más contenido.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="/img/6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Card 3</h5>
+                        <p class="card-text">Un diseño responsivo que se adapta a cualquier tamaño de pantalla.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
-    <!-- Sección con grillas -->
+
+    <!-- Acordeón -->
     <div class="container mt-section">
-        <div class="row justify-content-center"> <!-- Aseguramos que las columnas estén centradas -->
-            <div class="col-md-6">
-                <h2 class="text-center">Sección Izquierda</h2>
-                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit nam auctor id, arcu viverra facilisis sem leo et dui natoque cubilia.</p>
-            </div>
-            <div class="col-md-6">
-                <h2 class="text-center">Sección Derecha</h2>
-                <p class="text-center">Massa litora porttitor sodales netus tristique posuere dui quis turpis, sagittis etiam erat cras natoque montes bibendum laoreet condimentum.</p>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Acordeón 1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Este es el contenido del acordeón 1.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Acordeón 2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Este es el contenido del acordeón 2.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
 
     <footer>
         <div class="social-icons">
